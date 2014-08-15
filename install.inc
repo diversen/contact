@@ -7,6 +7,8 @@
 // we will add a fill to the 'up' dir where we place a
 // e.g. 1.02.sql file and update $_INSTALL['VERSION] as well.
 $_INSTALL['VERSION'] = 2.52;
+$_INSTALL['PUBLIC_CLONE_URL'] = "git://github.com/diversen/contact.git";
+$_INSTALL['PRIVATE_CLONE_URL'] = 'git@github.com:diversen/contact.git';
 
 // This creates a main menu item in the database
 $_INSTALL['MAIN_MENU_ITEM'] = array (
